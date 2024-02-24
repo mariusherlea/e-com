@@ -13,6 +13,7 @@ export default function ProductItem({ product }: { product: Product }) {
             alt={product.name}
             width={300}
             height={300}
+            priority
             className="object-cover h-64 w-full"
           />
         </Link>
