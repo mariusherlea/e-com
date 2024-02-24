@@ -2,6 +2,7 @@ import data from '@/lib/models/data'
 import Link from 'next/link'
 import Image from 'next/image'
 import AddToCart from '@/components/products/AddToCart'
+import RemoveFromCart from '@/components/products/RemoveFromCart'
 export default function ProductDetails({
   params,
 }: {
